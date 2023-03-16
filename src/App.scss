@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'Get Schwifty';
+  src: url('./assets/fonts/get_schwifty.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: linear-gradient(to bottom, #7D26CD, #00FF7F);
+  display: flex;
+
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #888;
+}
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

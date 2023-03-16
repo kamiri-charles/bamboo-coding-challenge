@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+
+    transition: all 0.5s ease;
+
+    font-family: 'Get Schwifty', cursive;
+
+    &.scrolled {
+        background-color: black;
+    }
+}
